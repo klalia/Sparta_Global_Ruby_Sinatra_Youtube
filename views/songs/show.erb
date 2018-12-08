@@ -1,0 +1,5 @@
+<h1><%= @song[:title] %></h1>
+<p><%= @song[:body] %></p>
+<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/<%= @song[:embed_id]%>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br>
+<a href="/<%= @song[:id]%>/edit">Edit</a>
