@@ -1,1 +1,3 @@
 # Sparta_Global_Ruby_Sinatra_Youtube
+
+This is a youtube page that has been created with ruby sinatra through the use of a view and controller. The data generated is just stored on the website on the show page and currently no model has been implemented. In this app you can view more information, edit, add and deleted youtube videos. You add the video by getting a youtube link and putting the code after the watch? into that link. For example for the Youtube link https://www.youtube.com/watch?v=5OeR5XBEahU you would just put v=5OeR5XBEahU in the youtube link input field when adding a new video. 
