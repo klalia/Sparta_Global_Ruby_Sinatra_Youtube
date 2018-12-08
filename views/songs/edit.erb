@@ -1,0 +1,6 @@
+<h1>Edit Song</h1>
+<%= erb :"partials/form", :layout=>false %>
+<form class="" action="/<%= @song[:id] %>" method="post">
+  <input type="hidden" name="_method" value="delete">
+  <input type="submit" value="Delete Song">
+</form>
